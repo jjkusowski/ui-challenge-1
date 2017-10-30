@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /*border: 1px solid red;*/
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+section {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: red;
+  height: 75px;
+  text-align: center;
+}
+
+header p {
+  padding-top: 28px;
+}
+
+nav {
+  background-color: orange;
+  height: 150px;
+  text-align: center;
+}
+
+nav p {
+  padding-top: 70px;
+}
+
+#top li:nth-child(1){
+  background-color: yellow;
+}
+
+#top li:nth-child(2){
+  background-color: lightyellow;
+}
+
+#bottom li:nth-child(1){
+  background-color: green;
+}
+#bottom li:nth-child(2){
+  background-color: darkgreen;
+}
+#bottom li:nth-child(3){
+  background-color: lightgreen;
+}
+#bottom li:nth-child(4){
+  background-color: seagreen;
+}
+li {
+  list-style:none;
+  display:inline-block;
+  list-style-position: inside;
+  text-align:center;
+}
+
+p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#top p {
+  padding-top: 55px;
+}
+
+#bottom p {
+  padding-top: 120px;
+}
+#bottom::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ul {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+#top li {
+  height: 125px;
+  width: 100%;
+  margin: 0px;
+}
+
+#bottom li {
+  float: left;
+  height: 240px;
+  width: 50%;
+  margin: 0px;
+}
+
+footer {
+  background-color: indigo;
+  height: 80px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer p {
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+      max-width: 960px;
+      margin: 0px auto;
+    }
+
+    nav {
+      display: inline-block;
+      width: 20.8333%;
+      height: 600px;
+      float: left;
+    }
+
+    nav p {
+      padding-top: 300px;
+    }
+
+    main {
+      height: 450px;
+    }
+    #top {
+      display: inline-block;
+      width: 79.16%;
+    }
+
+    #top li {
+      float: left;
+      width: 50%;
+      height: 200px;
+    }
+
+    #top p {
+      padding-top: 100px;
+    }
+
+    #bottom {
+      display: inline-block;
+      width: 79.171%;
+      margin-top: -3px;
+
+    }
+
+    #bottom ul {
+      float: right;
+    }
+
+    #bottom li {
+      width: 25%;
+      height: 250px;
+      float: left;
+    }
+
+    #bottom p {
+      padding: 0px;
+      margin: 0px;
+      padding-top: 125px;
+    }
+
+    footer {
+      height: 150px;
+    }
+
+    footer p {
+      padding-top: 75px;
+    }
+}
